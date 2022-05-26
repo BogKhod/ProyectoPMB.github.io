@@ -3,7 +3,7 @@
     list-style: none;
 }
 
-/* ! ----- BARRA DE NAVEGACIÓN ----- */
+/* ! ---------- BARRA DE NAVEGACIÓN ---------- */
 #contenedor_nav_sec {
     background-color: #333;
     width: 100%;
@@ -38,7 +38,7 @@
     color: #fff;
 }
 
-/* ! ----- HEADER ----- */
+/* ! ---------- HEADER ---------- */
 #header {
     background-image: url("https://pbs.twimg.com/media/DoHk-ndU4AAy3yj?format=jpg&name=large");
     background-size: cover;
@@ -132,7 +132,7 @@
     color: #0f7;
 }
 
-/* ! ----- SECCIÓN NOTICIAS ----- */
+/* ! ---------- SECCIÓN NOTICIAS ---------- */
 #seccion_noticias .contenedor_noticias {
     padding: 5% 0;
 }
@@ -188,7 +188,7 @@
     font-size: 14px;
 }
 
-.btn_trjt_noticias i {
+.boton_tarjeta_noticias i {
     background-color: #000;
     border-radius: 100px;
     color: #0f7;
@@ -198,12 +198,17 @@
     font-size: 36px;
 }
 
-.btn_trjt_noticias i:hover {
+.boton_tarjeta_noticias i:hover {
     background-color: #0f7;
     color: #000;
 }
 
-.btn_noticias {
+.contenedor_boton {
+    display: flex;
+    justify-content: center;
+}
+
+.boton_noticias {
     background: none;
     border: 1px solid #000;
     color: #000;
@@ -212,9 +217,21 @@
     height: 50px;
 }
 
-.btn_noticias:hover {
+.boton_noticias:hover {
     background-color: #0f7;
     color: #333;
+}
+
+/* ! ---------- SECCIÓN CICLO BÁSICO ---------- */
+#seccion_ciclo_bas {
+    background-image: url("https://pbs.twimg.com/media/DoHlAJcU8AEiCoC?format=jpg&name=large");
+    background-size: cover;
+    color: #fff;
+}
+
+#seccion_ciclo_bas .contenedor_secciones {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10%;
 }
 
 .titulo_seccion {
@@ -233,29 +250,11 @@
     margin: 0 auto;
 }
 
-
-
-#seccion_ciclo_bas {
-    background-image: url("https://pbs.twimg.com/media/DoHlAJcU8AEiCoC?format=jpg&name=large");
-    background-size: cover;
-    color: #fff;
-}
-
-#seccion_ciclo_bas .contenedor_secciones {
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 10%;
-}
-
 .contenedor_secciones .container {
     margin: 10% auto;
 }
 
-.contenedor_btn {
-    display: flex;
-    justify-content: center;
-}
-
-.btn_ciclo_bas_y_sup {
+.boton_ciclo_bas_y_sup {
     background: none;
     border: 1px solid #fff;
     color: #fff;
@@ -264,11 +263,12 @@
     height: 50px;
 }
 
-.btn_ciclo_bas_y_sup:hover {
+.boton_ciclo_bas_y_sup:hover {
     background-color: #fff;
     color: #000;
 }
 
+/* ! ---------- SECCIÓN CICLO SUPERIOR ---------- */
 #seccion_ciclo_sup {
     background-image: url("https://pbs.twimg.com/media/DoHk85XXUAAR902?format=jpg&name=large");
     background-size: cover;
@@ -295,7 +295,7 @@
     text-align: center;
 }
 
-.trjt_ciclo_bas {
+.tarjeta_ciclo_bas {
     background-color: #000;
     background-color: rgba(0, 0, 0, 0.7);
     text-align: center;
